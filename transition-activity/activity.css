@@ -1,3 +1,17 @@
-button :hover{
+
+button {
+    padding: 1em;
+    margin: .2em;
+    background-color: white;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    transition: background-color 1s ease, color 1s ease;
     
-}
+  }
+  
+  button:hover {
+    background-color: cornflowerblue;
+    color: white;
+    
+  }
